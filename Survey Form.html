@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form Project</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">Ghosts Survey Form</h1>
+      <p id="description">No one believes in ghosts until you see one!</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">Your Name: <input id="name" type="text" placeholder="Please enter your name..." required></label>
+         <label id="number-label">Your Age: <input id="number" type="number" min="12" max="69" placeholder="Age..."></label>
+       <label id="email-label">Your E-mail: <input id="email" type="email" placeholder="Please enter your email..." required></label>
+          </fieldset>
+  <fieldset>
+    <label>What do you like the most in coding?
+    <select id="dropdown">
+<option value="">Choose one</option>
+<option value="1">Going bald</option>
+<option value="2">Girls love programmers!</option>
+<option value="3">I need to do something when I'm not fishing</option>
+      </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Are you scared of ghosts?</legend>
+      <label><input type="radio" name="ghosts" checked value="scared1">GHOSTS!?</label>
+      <label><input type="radio" name="ghosts" value="scared2">Nnnnnnooooo?</label>
+      <label><input type="radio" name="ghosts" value="scared3">YES!</label>
+      </fieldset>
+      <fieldset>
+        <legend>Best weapons to fight vs ghosts?</legend>
+        <label><input type="checkbox" value="ghost1">Ghost!</label>
+        <label><input type="checkbox" value="ghost2">Power of friendship</label>
+        <label><input type="checkbox" value="ghost3">Karate</label>
+        <label><input type="checkbox" value="ghost4">Alcohol</label>
+        <label><input type="checkbox" value="ghost5">Cat</label>
+        <label><input type="checkbox" value="ghost6">Sand</label>
+        <label for="your-story">Tell us your ghosts story!          <textarea></textarea>
+          </label>
+          </fieldset>
+          <input id="submit" type="Submit" value="Submit">
+        </form>
+      </body>
+  </html>
