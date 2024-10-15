@@ -1,0 +1,49 @@
+body {
+  width: 65%;
+  margin: 0 auto 0 auto;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/025/488/673/non_2x/silhouette-of-dead-person-in-spooky-graveyard-a-haunting-autumn-generated-by-ai-free-photo.jpg);
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-size: cover;
+  font-family: Georgia;
+  font-size: 17px;
+  color: #FFFDD0C2;
+}
+
+form {
+  background-color: #92A8D1a2;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h1, p {
+  text-align: center;
+  margin: 1em auto;
+  height: 0.5em;
+  color: #0F4C81FF;
+  font-weight: bold;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 0;
+  border-bottom: 2.5px solid #3b3b4f;
+  margin: 0 0 15px 0;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+input, textarea {
+  background-color: #939597;
+  border: 1px solid #939597;
+  color: #ffffff;
+}
+
